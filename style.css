@@ -82,6 +82,14 @@ img {
     margin: 0;
   }
 
+  .row > *{
+    scale: .75;
+  }
+
+  .row img {
+    scale: .75;
+  }
+
   /* blocco lezioni */
 
   #lezioni .row{
@@ -102,11 +110,13 @@ img {
     align-items: center;
     width: 100%;
     padding-bottom: 1rem;
+    /* scale: .75; */
     
   }
 
   #lezioni .row > .left{
     width: 100%;
+    /* scale: .75; */
   }
 
 
@@ -127,12 +137,33 @@ img {
     flex-direction: column;
     align-items: center;
     margin-top: 0;
+    padding-bottom: 1rem;
 
   }
 
   #steps > .row > .left, #steps > .row >  .central, #steps > .row > .right{
     width: 100%;
     padding-top: 1rem;
+    margin-top: 0;
+    
+  }
+  /* blocco perchè */
+  
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  
+  #why > .row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 1rem;
+    background-color: yellow;
   }
 
 }
