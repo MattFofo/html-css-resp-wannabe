@@ -82,9 +82,7 @@ img {
     margin: 0;
   }
 
-  .row > *{
-    scale: .75;
-  }
+
 
   .row img {
     scale: .75;
@@ -147,6 +145,8 @@ img {
     margin-top: 0;
     
   }
+
+
   /* blocco perchè */
   
   #why .row>.first,
