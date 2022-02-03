@@ -76,12 +76,13 @@ img {
 /* QUERIES */
 
 
-/* blocco lezioni */
 
 @media screen and (max-width: 420px) {
   body{
     margin: 0;
   }
+
+  /* blocco lezioni */
 
   #lezioni .row{
     width: 100%;
@@ -112,5 +113,28 @@ img {
   #lezioni .right>img{
     align-self: center;
   }
-  
+
+  /* blocco steps */
+
+  #steps {
+    display: flex;
+    
+    
+  }
+
+  #steps>.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+
+  }
+
+  #steps > .row > .left, #steps > .row >  .central, #steps > .row > .right{
+    width: 100%;
+    padding-top: 1rem;
+  }
+
 }
+
+
