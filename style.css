@@ -82,10 +82,13 @@ img {
     margin: 0;
   }
 
-
+  h3{
+    margin: 0;
+  }
 
   .row img {
     scale: .75;
+    margin: 0;
   }
 
   /* blocco lezioni */
@@ -163,6 +166,7 @@ img {
     flex-direction: column;
     margin-top: 0;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: yellow;
   }
 
